@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/public/gb3.png" alt="Github Demo" title="Github Demo">
+  <img src="/public/gb3(1).png" alt="Github Demo" title="Github Demo">
 </p>
 <h2 align="center">Responsive E-commmerce Website Home Page</h2>
 

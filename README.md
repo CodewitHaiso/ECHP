@@ -1,8 +1,11 @@
+<p align="center">
+  <img src="/public/gb3 (1).png" alt="Github Demo" title="Github Demo">
+</p>
 <h2 align="center">Responsive E-commmerce Website Home Page</h2>
 
  This is a fully responsive, customizable E-commerce website built with React, a modern, responsive e-commerce web application built with React. Features include dynamic category browsing, real-time product search, user authentication, and a seamless shopping cart experience with alot more.
 
- <a href="https://CodewitHaiso.github.io/E-commerce-Home-Page/"><strong>➥ Live Demo</strong></a>
+ <a href=" https://codewithaiso.github.io/ECHP/"><strong>➥ Live Demo</strong></a>
 
 
  ### Demo Screeshots
@@ -39,9 +42,9 @@ Follow the steps below to get the project up and running on your local machine.
 
 1. **Clone the repository**:
 
-   git clone https://github.com/CodewitHaiso/E-commerce-Home-Page.git
+   git clone https://github.com/CodewitHaiso/ECHP.git
 
-   cd E-commerce-Home-Page
+   cd ECHP
 
 -Install the dependencies: Run the following command to install all necessary packages:
 

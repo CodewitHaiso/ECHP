@@ -15,7 +15,7 @@ import LogoSlider from "./pages/logoslider";
 
 function Home() {
     return (
-        <Router basename="/pakweb">
+        <Router basename="/ECHP">
             <Routes>
                 {/* Wrap all routes inside Layout */}
                 <Route path="/" element={<Layout />}>

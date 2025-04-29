@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&family=Righteous&display=swap');
+
+:root {
+    /* Colors */
+    --bg-color: #F8F6DC;
+    --second-color: black;
+    --section-color: #A6D1C8;
+    --footer-header: #0F4C55;
+    --btn-color: #D6A24A;
+    --hover: #B38338;
+    --text-color: #0F4C55;
+
+    /* Typography */
+    --heading-font: "Roboto", sans-serif;
+    --btn-font: "Righteous", sans-serif;
+
+    /* Breakpoints */
+    --breakpoint-mobile: 480px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-desktop: 1024px;
+}
+
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* All Categories Section */
+.categories-container {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.categories-title {
+    font-family: var(--heading-font);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-left:600px;
+    width:20%;
+    border-radius: 44px;
+    background: #A6D1C8;
+     box-shadow: inset 14px -14px 27px #86a9a2,
+            inset -14px 14px 27px #c6f9ee;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px; /* Ensures uniform width */
+    height: 210px; /* Adjust to fit image and text properly */
+    border-radius: 8px;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-img {
+    width: 150px; /* Ensures all images are the same width */
+    height: 150px; /* Ensures all images are the same height */
+    object-fit: contain; /* Prevents distortion while maintaining aspect ratio */
+    margin-bottom: 10px;
+}
+
+.category-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap; /* Prevents text from wrapping */
+    transition: all 0.5s ease;
+}
+.category-name:hover{
+    background:var(--section-color);
+    color:var(--footer-header);
+    padding:5px;
+    border:0px solid var(--bg-color);
+    border-radius:10px;
+    cursor: pointer;
+}
+
+
+
+/* CSS to hide scrollbar of Geyserlist, ACList, Refrigerator */
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+
+  /*  CSS FOR logoslider.jsx */
+
+  @keyframes scrollLogos {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .logo-slider {
+    display: flex;
+    animation: scrollLogos 10s linear infinite;
+    gap: 20px; /* Adjust spacing */
+  }
+
+  @media screen and (max-width: 480px) {
+    .categories-title {
+        font-size: 24px;
+        margin-left: 0; /* Center properly */
+        width: 100%;
+        margin-top:-200px; /* Wider on small screen */
+    }
+
+    .categories-grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+      gap: 10px; /* a little less gap for mobile */
+  }
+  
+  .category-card {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+  }
+  
+  .category-img {
+      width: 80px; /* smaller images for mobile */
+      height: 80px;
+  }
+  
+  .category-name {
+      font-size: 12px; /* smaller text */
+      white-space: normal; /* allow wrap */
+  }
+ 
+  
+  
+
+    .logo-slider {
+        gap: 10px; /* Reduce spacing between logos */
+    }
+
+    * {
+        font-size: 14px; /* Slightly smaller general font */
+    }
+}
+  
+

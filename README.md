@@ -5,7 +5,7 @@
 
  This is a fully responsive, customizable E-commerce website built with React, a modern, responsive e-commerce web application built with React. Features include dynamic category browsing, real-time product search, user authentication, and a seamless shopping cart experience with alot more.
 
- <a href=" https://codewithaiso.github.io/ECHP/"><strong>➥ Live Demo</strong></a>
+ <a href="[https://codewithaiso.github.io/ECHP/](https://codewithaiso.github.io/ECHP/)"><strong>➥ Live Demo</strong></a>
 
 
  ### Demo Screeshots
